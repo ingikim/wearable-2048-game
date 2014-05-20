@@ -190,7 +190,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points in Wearable2048! http://ingikim.com Play Wearable Weekly 2048. Then, watch Wearable Weekly about google glass #2048game"
+  var text = "" + this.score + " points in Wearable2048! Play Wearable 2048. Then, watch Wearable Weekly Podcast! #2048game"
   tweet.setAttribute("data-text", text);
 
   return tweet;
